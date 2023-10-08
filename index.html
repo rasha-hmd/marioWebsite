@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Gamers</a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="leaderboard.html">High Score</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchBx">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Search Games">
+            </div>
+        </div>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+
+    <!-- Home Banner -->
+    <div class="banner" id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>A New Home for<br>
+                Game Lovers </h2>
+                <p>Enjoy the wonderful and challenging world of Mario, the most famous plumber guy ever. There are many different genres, from the typical Mario Games to running races and even solving puzzles!</p>
+                <a href="#" class="btn">Join Now</a>
+            </div>
+            <img src="Mario1.png">
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Welcome to our gaming haven, where a group of devoted game fans has united to craft an exceptional gaming website. 
+               We aim to foster a vibrant gaming community, sharing our insights, reviews, and the latest news to keep you at the forefront of the gaming world. 
+               <br>Join us on our gaming journey, and let's explore the ever-evolving world of video games together!
+            </p>
+            <a href="https://www.bing.com/search?FORM=KCEXPL&q=super+mario+bros.&filters=sid:%2267a10523-4787-b0e5-01af-1c1f873a52d0%22+lite:%22.S2NkUmVsYXRpb25eMGJlMDE5MDYtN2EyMC1hNmY4LTI1N2EtY2NjMzdkNTkwYTc3Xl5eXiRFbnRpdHkyX2Vu%22" target="_blank">Read more</a>
+        </div>
+        <img src="game.jpg">
+    </div>
+
+    <!-- Games -->
+    <div class="games" id="games">
+        <h2>Games</h2>
+        <div class="cardBx">
+
+        <!-- Game1-->
+            <div class="card" data-item="pc">
+                <img src="game1.png">
+                <div class="content">
+                    <h4>Whack a Mole</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>4.99$</span></p>
+                        <a href="Whack-a-mole\index.html" target="_blank">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Game2-->
+            <div class="card" data-item="pc">
+                <img src="leaderBoard\646006.jpg">
+                <div class="content">
+                    <h4>Mario run</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>6.99$</span></p>
+                        <a href="MarioGameEdited\index.html" target="_blank">Play Now</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Game3-->
+            <div class="card" data-item="pc">
+                <img src="game3.png">
+                <div class="content">
+                    <h4>Puzzle</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>Pricing<br><span>3.99$</span></p>
+                        <a href="Puzzle mini game\index.html" target="_blank">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News -->
+    <div class="news" id="news">
+        <h2>News</h2>
+        <div class="cardBx">
+
+        <!-- first-->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\wonder.png">
+                <div class="content">
+                    <h4>31.08.2023</h4>
+                    <div class="info">
+                        <p>Experience the unexpected in Super Mario Bros. Wonder gameplay presentation<br></p>
+                        <a href="first.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- second-->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\marioKart.png">
+                <div class="content">
+                    <h4>11.08.2023</h4>
+                    <div class="info">
+                        <p>Pack your kart for the fun-filled Vacation Tour!<br></p>
+                        <a href="second.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- third-->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\oreo.png">
+                <div class="content">
+                    <h4>26.06.2023</h4>
+                    <div class="info">
+                        <p>Oreo brand powers up with new limited-edition cookies inspired by the world of Super Mario<br></p>
+                        <a href="third.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- forth-->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\movie.png">
+                <div class="content">
+                    <h4>12.06.2023</h4>
+                    <div class="info">
+                        <p>Bring home The Super Mario Bros. Movie<br></p>
+                        <a href="forth.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- fifth-->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\Rpg.png">
+                <div class="content">
+                    <h4>30.06.2023</h4>
+                    <div class="info">
+                        <p>The classic Mario RPG returns with an updated look! Can you save Star Road?<br></p>
+                        <a href="fifth.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- sixth -->
+            <div class="card" data-item="pc">
+                <img class="im" src="images\DK.png">
+                <div class="content">
+                    <h4>28.06.2023</h4>
+                    <div class="info">
+                        <p>Race new city course Rome Avanti and newly added course<br> Highway in the Night Tour<br></p>
+                        <a href="sixth.html" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+
+    </div>
+    <section class="connect">
+        <h3>Connect with us via</h3>
+        <div>
+          <a href="https://www.facebook.com/groups/751954242030486/" target="_blank"><img src="facebook.png" /></a>
+          <a href="https://www.instagram.com/supermariomovie/?hl=en" target="_blank"><img src="instagram.png" /></a>
+          <a href="https://crast.net/326203/whatsapp-how-to-activate-the-mario-bros-mode-in-the-app/" target="_blank"><img src="whatsapp.png" /></a>
+        </div>
+      </section>
+      <footer><p>&copy; Mario 2023</p></footer>
+
+
+
+    <script>
+        /* Sticky NavBar */
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        /* Responsive NavBar */
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const nav = document.querySelector('.nav');
+            toggleMenu.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    color:rgb(12, 12, 34);
+    background-image:url("645970.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#title {
+    height: 100px;
+    width: 300px;
+}
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: rgb(107, 180, 209);
+    border: 10px solid rgb(12, 12, 34);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid rgb(0, 0, 8);
+}

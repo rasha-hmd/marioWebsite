@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url("IMG_6818.JPG") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(255, 205, 69);
+    
+}
+
+/* Style the leaderboard container */
+.Lboard{
+    text-align:left;
+    margin: 20px;
+}
+
+/* Style the leaderboard heading */
+.Lboard h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 230px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    color: #f70606;
+    border-color: antiquewhite;
+    word-spacing: 1px;
+    text-shadow: antiquewhite;
+    
+}
+
+/* Style the leaderboard table */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+    
+
+}
+
+/* Style the table header */
+th {
+    background-color: #f70606;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px dotted rgb(235, 199, 39);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style alternating rows for better readability */
+tr:nth-child(even) {
+    background-color: rgb(235, 199, 39);
+    border: 1px dotted rgb(235, 199, 39);
+}
+
+/* Style the table data cells */
+td {
+    padding: 10px;
+    border: 1px dotted rgb(235, 199, 39);
+    
+}
+
+.heading th{
+    font-family:sans-serif;
+    font-size: large;
+    color: rgb(235, 199, 39);
+}
