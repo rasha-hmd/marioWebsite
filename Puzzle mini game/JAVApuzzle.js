@@ -30,6 +30,7 @@ window.onload = function() {
 
         }
     }
+    //test
 }
 
 function dragStart() {
